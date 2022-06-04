@@ -76,7 +76,7 @@
     "exp_dir": ["/home/arthur/experiments"],
     "tag_name": ["blclab_geth_client"]
   },
-  "number_of_experiments": 1,
+  "number_of_experiments": 2,
   "experiment_settings":
   {
     "exp_dir": ["/home/arthur/experiments"],
@@ -84,6 +84,8 @@
     "localization_runs": [3],
     "repetition_runs": [3],
     "method": ["change_consent"],
+    "arg": ["key"],
+    "arg2": ["value"],
     "mode": ["public"],
     "shape": ["smooth"],
     "base": [0],
