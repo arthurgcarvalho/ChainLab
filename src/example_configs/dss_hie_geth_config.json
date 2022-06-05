@@ -53,7 +53,7 @@
       "epoch": [30000],
       "balance": ["0x200000000000000000000000000000000000000000000000000000000000000"],
       "timestamp": ["0x00"],
-      "gaslimit": ["0x2fefd8"],
+      "gaslimit": ["0x1C9C380"],
       "num_acc": [null],
       "cache": [1024],
       "cache.database": [75],
