@@ -89,7 +89,7 @@
     "mode": ["public"],
     "shape": ["smooth"],
     "base": [0],
-    "step": [100, 100],
+    "step": [100],
     "delay": [0],
     "r2_bound": [0.98],
     "frequency_bound": [100],
