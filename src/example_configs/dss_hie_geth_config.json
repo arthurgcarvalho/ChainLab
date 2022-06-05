@@ -13,10 +13,10 @@
       "permissions": "default"
     },
     "subnet_id": {
-      "us-east-2a": "subnet-06d6577ea9808f360"
+      "us-east-2": "subnet-06d6577ea9808f360"
     },
     "security_group_id": {
-      "us-east-2a": [
+      "us-east-2": [
         "sg-03e03d8e5d9d405f2"
       ]
     },
@@ -26,7 +26,7 @@
     "key_name": "key-sa",
     "aws_credentials": "/home/arthur/.aws/credentials",
     "aws_config": "/home/arthur/.aws/config",
-    "aws_region": [{"us-east-2a": 4}],
+    "aws_region": [{"us-east-2": 4}],
     "aws_proxy_settings": null,
     "priv_key_path": "/home/arthur/key-sa.pem",
     "tag_name": "blclab_geth",
@@ -72,11 +72,11 @@
     "instance_provision": ["aws"],
     "number_of_clients": [4],
     "client_type": ["t2.micro"],
-    "aws_region": [{"us-east-2a": 4}],
+    "aws_region": [{"us-east-2": 4}],
     "exp_dir": ["/home/arthur/experiments"],
     "tag_name": ["blclab_geth_client"]
   },
-  "number_of_experiments": 2,
+  "number_of_experiments": 1,
   "experiment_settings":
   {
     "exp_dir": ["/home/arthur/experiments"],
