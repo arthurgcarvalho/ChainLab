@@ -76,7 +76,7 @@
     "exp_dir": ["/home/arthur/experiments"],
     "tag_name": ["blclab_geth_client"]
   },
-  "number_of_experiments": 1,
+  "number_of_experiments": 2,
   "experiment_settings":
   {
     "exp_dir": ["/home/arthur/experiments"],
@@ -89,7 +89,7 @@
     "mode": ["public"],
     "shape": ["smooth"],
     "base": [0],
-    "step": [100],
+    "step": [100, 100],
     "delay": [0],
     "r2_bound": [0.98],
     "frequency_bound": [100],
