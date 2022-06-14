@@ -60,7 +60,7 @@
     "exp_dir": "The path to the folder in which logs and setup data for the clients is stored",
     "tag_name": "The tag name of the clients in the AWS console"
   },
-  "number_of_experiments": "the number of experiments for each of the above settings. Must be equal to the length of the longest array in 'experiment_settings'",
+  "number_of_experiments": "the number of experiments for each of the above settings. Must be equal to the length of the longest array in 'experiment_settings' (note by Arthur: this value must be at least 2, otherwise the code runs into issues no matter what follows)",
   "experiment_settings":
   {
     "exp_dir": "The path to the folder in which all the benchmarking data, logs, measurement results and evaluation charts are stored",
@@ -73,7 +73,7 @@
     "mode": "Choose between 'public' and 'private' (only supported for quorum yet)",
     "shape": "Choose between 'smooth' for uniform distribution of transactions and 'step' for issuing all transactions at the beginning of the respective second",
     "base": "default: 'None', otherwise a number which tells the first localization run at which tx/s the first run should start (suggestion: 80% of expected throughput, important: must be significantly less than actual throughput)",
-    "step": "default: 'None', otherwise a number which tells the first localization run by how many tx/s it should increase the rate of requests for every iteration (suggestion: 4% of expected throughput, important: must be small (few %) compared to actual throughput)",
+    "step": "default: 'None', otherwise a number which tells the first localization run by how many tx/s it should increase the rate of requests for every iteration (suggestion: 4% of expected throughput, important: must be small (few %) compared to actual throughput) (Note by Arthur: leave as [100, 100])",
     "delay": "an integer specifying the artificial network delay (on outgoing packages) on blockchain nodes, simulation large distances between servers",
     "r2_bound": "a number between 0 and 1, for small throughput (< frequency_bound), the r² of the regression must be larger than the r2_bound in order to count as 'blockchain can keep up'",
     "frequency_bound": "an integer - explanation see r2_bound",
